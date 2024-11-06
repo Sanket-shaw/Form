@@ -1,0 +1,70 @@
+.heading{
+    text-align: center;
+    font-family: "Poppins", serif;
+    font-family: Poppins;
+font-size: 32px;
+font-weight: 700;
+line-height: 48px;
+
+}
+.container{
+    width: 510px;
+    height: 1100px;
+    display:flex;
+    margin: 0;
+    border: 5px solid black;
+    border-radius: 20px;
+
+    justify-content: center;
+    align-items: flex-start ;
+    left: 400px;
+}
+.form-group,.description {
+    margin-bottom: 15px;
+    font-size: larger;
+    font-family: "Poppins", serif;
+}
+
+.form-group label,.description label,.btn {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 450px;
+    height: 45px;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+.description input,
+.description select,
+.description textarea {
+    width: 450px;
+    height: 188px;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 4px;
+}
+.btn{
+    padding-top: 10px;
+}
+.btn input{
+    width: 450px;
+    height: 45px;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    font-size: larger;
+    font-family: "Poppins", serif;
+    color: aliceblue;
+    background-color: #000000;
+}
+
+
